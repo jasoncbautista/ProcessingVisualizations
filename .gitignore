@@ -1,3 +1,3 @@
-build-tm
+build-tmp/**
 .*.swo
 .*.swp

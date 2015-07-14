@@ -21,7 +21,7 @@ public void setup(){
 	H.init(this).background(0xffECECEC);
 	smooth();
 
-	HColorPool colors = new HColorPool(0xffFFFFFF, 0xff333333);
+	HColorPool colors = new HColorPool(0xffFFFFFF, 0xffECECEC , 0xff333333, 0xff0095a8 , 0xff00616f, 0xffFF3300, 0xffFF6600 );
 
 	HShape d = new HShape("mongo.svg");
 	H.add(d)
@@ -32,6 +32,7 @@ public void setup(){
 		.loc(width/2, height/2)
 		.scale(3)
 	;
+
 	d.randomColors(colors.fillOnly());
 	H.drawStage();
 }
